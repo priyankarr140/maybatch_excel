@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="username" value="rajat"></parameter>
+<parameter name="password" value="rajat@123"></parameter>
+
+<!--<groups>
+<run>
+<include name="smoke"></include>
+</run>
+</groups>-->
+<listeners>
+<listener class-name="testcases.ListenerA"></listener>
+<listener class-name="testcases.RetryListener"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+       <class name="testcases.GroupTest"/>
+      <class name="testcases.ExampleTest">
+     <!--// <methods>
+      <include name="methodC"></include>
+          <include name="methodA"></include>
+      </methods>-->
+      </class>  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,13 @@
+testcases\GroupTest.class
+testcases\Rerun.class
+testcases\MobileTest.class
+gsit_may26_excel\LoginTest.class
+testcases\ListenerA.class
+testcases\ExampleTest.class
+testcases\ParallelTest.class
+testcases\RetryListener.class
+testcases\PriorityTest.class
+testcases\SeleniumTest.class
+testcases\DataTest.class
+testcases\Program_ReadFile.class
+testcases\WebsiteTest.class

@@ -1,0 +1,2 @@
+21:41:39.465 [main] DEBUG testcases.ExampleLogTest - login button clicked successfully
+21:41:39.474 [main] ERROR testcases.ExampleLogTest - Exception:Popup has come up unexpectedly
